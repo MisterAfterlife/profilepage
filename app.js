@@ -11,6 +11,8 @@ var routes = require("./routes");
 
 var app = express();
 
+var test = "";
+
 mongoose.connect("mongodb://localhost:27017/test");
 setUpPassport();
 
